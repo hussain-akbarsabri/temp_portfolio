@@ -4,7 +4,7 @@ import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-  name: "Hashir",
+  name: "Akbar",
   links: [
     {
       title: "About",
@@ -21,16 +21,12 @@ export const navigation = {
     {
       title: "Links",
       link: "/links",
-    },
-    {
-      title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
     }
   ],
 }
 export const intro = {
-  title: "Hey, I'm Hashir",
-  description: "A Computer Engineer creating mobile apps and static websites.",
+  title: "Hey, I'm Akbar",
+  description: "I love to work contractually helping to growing my clients' business🤝",
   image: profile.src,
   buttons: [
     {
@@ -49,9 +45,7 @@ export const intro = {
 export const about = {
   title: "Who I am",
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    "I am working as a Software Engineer as a Full Stack Developer, Designer and a Software Architect. Its been 3 years of dedication that has made me capable of building solutions at scale. I am in Love with building research driven innovative solutions from scratch. Having the urge of giving back to people I teach students in my freetime, and raise funds for the deserving lads. From personally conducting hackathons to mentoring students as a Developer Advocate I have built empowering tech communities benefitting thousands of people across Pakistan.",
   ],
 }
 
@@ -59,13 +53,13 @@ export const work = {
   title: "What I do",
   cards: [
     {
-      title: "Mobile App Development",
-      description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+      title: "Full Stack Development",
+      description: "Building responsive websites using React-Redux.js | HTML/CSS | TailwindCSS | Bootstrap | Scemantic UI | Theme UI | Material UI | Core UI",
       icons: null,
     },
     {
-      title: "Web Development",
-      description: "I create responsive static websites using Reactjs.",
+      title: "UI/UX Design",
+      description: "Designing highly attractive user interface for mobile and web applications",
       icons: null,
     }
   ],
@@ -73,97 +67,58 @@ export const work = {
 
 export const projects = {
   title: "Projects",
-  cards: [
-    {
-      title: "StarBook",
-      description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
-      icons: [
-        {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-        },
-        {
-          icon: faGithub,
-          link: "https://github.com/hashirshoaeb/star_book",
-        },
-      ]
-    },
-    {
-      title: "QuranTalk",
-      description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
-      icons: [
-        {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-        },
-        {
-          icon: faGooglePlay,
-          link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
-        },
-      ]
-    },
-    {
-      title: "Portfolio",
-      description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
-      icons: [
-        {
-          icon: faGithub,
-          link: "https://github.com/hashirshoaeb/portfolio",
-        },
-      ]
-    },
-  ],
+  cards: []
 }
 
 export const contact = {
   title: "Get in touch",
-  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hussain-akbarsabri@gmail.com.",
   buttons: [
-    {
-      title: "Email Me",
-      link: "mailto:hashirshoaeb@gmail.com",
-      isPrimary: true,
-    },
-    {
-      title: "Schedule Meeting",
-      link: "https://topmate.io/hashirshoaeb",
-      isPrimary: false,
-    },
+    // {
+    //   title: "Email Me",
+    //   link: "mailto:hashirshoaeb@gmail.com",
+    //   isPrimary: true,
+    // },
+    // {
+    //   title: "Schedule Meeting",
+    //   link: "https://topmate.io/hashirshoaeb",
+    //   isPrimary: false,
+    // },
   ]
 }
 
 // SEARCH ENGINE 
 export const SEO = {
-  // 50 - 60 char  
-  title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-  description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
-  image: profile.src,
+  // // 50 - 60 char  
+  // title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
+  // description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+  // image: profile.src,
 }
 
 export const links = {
   image: profile.src,
-  title: "@hashirshoaeb",
-  description: "Computer Engineer | Flutter | Reactjs Developer",
+  title: "@hussain-akbarsabri",
+  description: "Computer Engineer | Rails | Reactjs Developer",
   cards: [
-    {
-      title: "My website",
-      link: "https://hashirshoaeb.com/",
-    },
-    {
-      title: "QuranTalk App",
-      link: "https://www.qurantalk.app/",
-    },
-    {
-      title: "StarBook App",
-      link: "https://starbook.dev/",
-    },
-    {
-      title: "My GitHub",
-      link: "https://github.com/hashirshoaeb/",
-    },
-    {
-      title: "My LinkedIn",
-      link: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
+    // {
+    //   title: "My website",
+    //   link: "https://hashirshoaeb.com/",
+    // },
+    // {
+    //   title: "QuranTalk App",
+    //   link: "https://www.qurantalk.app/",
+    // },
+    // {
+    //   title: "StarBook App",
+    //   link: "https://starbook.dev/",
+    // },
+    // {
+    //   title: "My GitHub",
+    //   link: "https://github.com/hashirshoaeb/",
+    // },
+    // {
+    //   title: "My LinkedIn",
+    //   link: "https://www.linkedin.com/in/hashirshoaeb/",
+    // },
   ]
 }
